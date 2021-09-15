@@ -6,7 +6,7 @@ A blockchain solution to optimize the contractual transactions within t
 ## Industry Background
 The Waste Management industry is a billion dollar industry that will never cease to exist. Garbage is forever. The relationships within the industry are highly contractual. Landfills (1) make contracts with waste collection companies (2) who make contracts with local municipalities and commercial businesses that server as their accounts(3). There are instances in which a waste management company may handle both the garbage drop-off at the landfill and the collection and transportation of the garbage. Generally, the contracts are as follows:
 
-Landfills make an agreement with a waste collection company that ALL of their garbage will go to the land fill for a specific period of time. When the contract ends, the companies negotiate the rate per tonnage of trash and send invoices to the waste collection companies on a monthly basis as the garbage is weighed and dropped off at the landfill. 
+Landfills make an agreement with a commercial business or local municpalities account that states that ALL of their garbage will go to the land fill for a specific period of time. The garbage is collected on the agreed pick-up schedule and invoices are sent to the account on a monthly basis as the garbage is weighed and dropped off at the landfill.  When the contract ends, the companies negotiate the rate per tonnage of trash and the time period. There are instances where there is also a contracted trucking company to handle pick-ups.
 
 This means the garbage producer wants to keep their numbers low while the landfill wants to see the tonnage high, as it leads to a higher invoice payment for them. Here is the conflict of interest factor that is required for a blockchain platform.
 
@@ -34,3 +34,8 @@ For this project, I will be focusing on the validity of a smart contract being c
 2. The Driver scans in to pick-up the garbage load weight
 3. The smart contract is created based on this particular weight stating that the financial transaction will occur if and only if this weight threshold is met
 4. The Driver arrives to the scale house and scans. The weight is verified and the smart contract is executed between the account and the waste management company. 
+
+## Considerations
+[] Since the garbage tonnage can vary from day to day and month to month, how / when should a smart contract be created? During the initial pick-up of the garbage? 
+[] What are the implications on having the payments occur right when the garbage is dropped off? 
+[] If one truck driver has multiple accounts it is picking up for, how is that managed? 
