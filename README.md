@@ -36,6 +36,6 @@ For this project, I will be focusing on the validity of a smart contract being c
 4. The Driver arrives to the scale house and scans. The weight is verified and the smart contract is executed between the account and the waste management company. 
 
 ## Considerations
-[] Since the garbage tonnage can vary from day to day and month to month, how / when should a smart contract be created? During the initial pick-up of the garbage? 
-[] What are the implications on having the payments occur right when the garbage is dropped off? 
-[] If one truck driver has multiple accounts it is picking up for, how is that managed? 
+- [] Since the garbage tonnage can vary from day to day and month to month, how / when should a smart contract be created? During the initial pick-up of the garbage? 
+- [] What are the implications on having the payments occur right when the garbage is dropped off? 
+- [] If one truck driver has multiple accounts it is picking up for, how is that managed? 
